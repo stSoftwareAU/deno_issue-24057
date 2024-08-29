@@ -1,6 +1,7 @@
 #version="v1.46.1" # fails same error.
 #version="v1.45.5" # OOME
-version="v1.43.6" # Working version
+# version="v1.43.6" # Working version
+version="v1.46.2" # Fixed version :-) 
 
 curl -fsSL https://deno.land/install.sh | sh -s ${version}
 
